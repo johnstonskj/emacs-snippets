@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: Rust unit test module
+# key: mod-unit-tests
+# --
+// ------------------------------------------------------------------------------------------------
+// Unit Tests
+// ------------------------------------------------------------------------------------------------
+
+#[cfg(test)]
+mod tests {
+/*
+    use pretty_assertions::assert_eq;
+*/
+    use super::*;
+    
+    #[test]
+    fn test_something() {
+        
+    }
+}

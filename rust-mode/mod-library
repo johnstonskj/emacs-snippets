@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Rust library module
-# key: mod-library
+# key: lmod
 # --
 /*!
 One-line description.

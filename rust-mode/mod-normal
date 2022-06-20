@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Rust module
-# key: mod-normal
+# key: nmod
 # --
 /*!
 One-line description.

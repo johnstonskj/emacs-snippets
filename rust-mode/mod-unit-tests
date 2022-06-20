@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Rust unit test module
-# key: mod-unit-tests
+# key: tmod
 # --
 // ------------------------------------------------------------------------------------------------
 // Unit Tests

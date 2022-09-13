@@ -1,13 +1,16 @@
 # -*- mode: snippet -*-
-# name: Rust module
+# name: normal module
 # key: nmod
 # --
 /*!
-One-line description.
+${1:One-line description}.
 
 More detailed description, with
 
 # Example
+
+```rust
+```
 
 */
 
@@ -20,6 +23,8 @@ More detailed description, with
 // ------------------------------------------------------------------------------------------------
 // Public Types
 // ------------------------------------------------------------------------------------------------
+
+$0
 
 // ------------------------------------------------------------------------------------------------
 // Public Functions

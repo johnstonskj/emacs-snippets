@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: enumeration 
+# key: el
+# --
+\begin{enumerate}
+  \item $0
+\end{enumerate}

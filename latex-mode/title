@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: preamble title
+# key: title
+# --
+\title{$0}
+\author{}
+\date{\today}
+
+\abstract{}
+
+\maketitle

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: quotation 
+# key: qt
+# binding: C-c C-c q
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\begin{quotation}
+  $0
+\end{quotation}

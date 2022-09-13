@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  textsl
+# key: sl
+# binding: C-c C-c s
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\textsl{$0}

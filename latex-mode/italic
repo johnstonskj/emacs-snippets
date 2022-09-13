@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  textit
+# key: i
+# binding: C-c C-c i
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\textit{$0}

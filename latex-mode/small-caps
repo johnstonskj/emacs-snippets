@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  textsc
+# key: sc
+# binding: C-c C-c c
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\textsc{$0}

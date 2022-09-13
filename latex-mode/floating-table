@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name:  table (floating)
+# key: ftbl
+# --
+\begin{table}[hbt]
+  \centering
+  \begin{tabular}{l|cc}
+    \textbf{$0} & \textbf{} & \textbf{} \\
+    \hline
+    & & \\
+    & &
+  \end{tabular}
+  \caption{${1:New Table}}
+  \label{tbl:${2:new-table}}
+\end{table}

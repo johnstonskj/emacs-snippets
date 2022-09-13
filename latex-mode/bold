@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  textbf
+# key: b
+# binding: C-c C-c b
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\textbf{$0}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: footnote
+# key: fn
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\footnote{$0}

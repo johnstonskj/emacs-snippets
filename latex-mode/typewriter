@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  texttt
+# key: tt
+# binding: C-c C-c t
+# expand-env: ((yas-wrap-around-region 1))
+# --
+\texttt{$0}

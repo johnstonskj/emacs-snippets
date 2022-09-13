@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:  figure (floating)
+# key: ffig
+# --
+\begin{figure}[hbt]
+  \centering
+  \includegraphics[scale=0.5]{fig/$0}
+  \caption{${1:New Figure}}
+  \label{fig:${2:new-figure}}
+\end{figure}

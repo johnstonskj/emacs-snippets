@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Intellij IDEA
+# contributor: Toptal & contributors
+# key: idea
+# --
+
+### IDEA ###
+
+/.idea
+
+/*.iml

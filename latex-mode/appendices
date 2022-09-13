@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:  appendices 
+# key: app
+# --
+\clearpage
+
+\begin{appendices}
+
+$0
+
+\end{appendices}

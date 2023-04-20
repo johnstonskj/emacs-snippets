@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: New Checklist
+# key: checklist
+# --
+- $1 [/]
+- [ ] Sub-task 1
+- [ ] Sub-task 2

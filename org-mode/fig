@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: New Figure
+# key: fig
+# --
+<<fig-$1>>
+#+CAPTION: $2
+[[./fig/$0.png]]

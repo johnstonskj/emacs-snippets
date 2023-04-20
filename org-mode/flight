@@ -1,0 +1,37 @@
+# -*- mode: snippet -*-
+# name: New Travel Flight
+# key: flight
+# binding: M-c t f
+# expand-env: ((outbound-id (org-id-new)))
+# --
+
+** Flight ($1 -> $2)                                              :flight:
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `outbound-id`
+:CARRIER:  airline
+:CODE:     flight-number
+:DEP_TIME: <>
+:DEP_FROM: $1
+:ARR_TIME: <>
+:ARR_INTO: $2
+:ASSIGNED: seat-if-known
+:CONFIRM:  confirmation-code
+:END:
+
+$0
+
+** Flight ($2 -> $1)                                              :flight:
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `(org-id-new)`
+:BLOCKER:  ids(`outbound-id`)
+:CARRIER:  airline
+:CODE:     flight-number
+:DEP_TIME: <2023-04-10 Mon 23:13>
+:DEP_FROM: $2
+:ARR_TIME: <2023-04-11 Tue 07:29>
+:ARR_INTO: $1
+:ASSIGNED: seat-if-known
+:CONFIRM:  confirmation-code
+:END:

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: New Travel Trip
+# key: trip
+# binding: M-c t t
+# --
+
+* $1                                       :travel:
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `(org-id-new)`
+:END:
+
+You can use the snippet tags =flight=, =car=, =hotel=, or =event= to add to
+this trip.

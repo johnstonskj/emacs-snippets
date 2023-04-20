@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: New Document
+# key: doc
+# expand-env: ((formatted-email (format "(\"%s\")" user-mail-address)))
+# --
+# -*- mode:org; epa-file-encrypt-to: `formatted-email` -*-
+#+TITLE: $1
+#+AUTHOR: `user-full-name`
+#+EMAIL: `user-mail-address`
+#+LANGUAGE: en
+#+STARTUP: overview hidestars inlineimages entitiespretty
+
+$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: New Emacs Lisp Example Block
+# key: elispx
+# --
+#+BEGIN_EXAMPLE emacs-lisp
+$0
+#+END_EXAMPLE

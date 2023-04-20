@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: New TODO Item, with Checklist
+# key: todolist
+# --
+
+* TODO [/] $1
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `(org-id-new)`
+:END:
+
+$0
+
+Add scheduled start with /=C-c C-s=/ and a deadline with /=C-c C-d=/.
+Toggle check-box status with  /=C-c C-c=/. and update the Progress cookie
+with /=C-c #=/.
+
+- [ ] Sub-task 1
+- [ ] Sub-task 2

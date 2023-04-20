@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: New Work Document
+# key: wkdoc
+# expand-env: ((skj/work-email-formatted (format "(\"%s\")" skj/work-email)))
+# --
+# -*- mode:org; epa-file-encrypt-to: `skj/work-email-formatted` -*-
+#+TITLE: $1
+##+SUBTITLE: 
+#+AUTHOR: `user-full-name`
+#+EMAIL: `skj/work-email`
+#+INSTITUTE: Amazon.com
+#+LANGUAGE: en
+#+STARTUP: overview hidestars inlineimages entitiespretty
+##+PANDOC_OPTIONS: standalone:t reference-doc:../work-paper.docx
+##+FILETAGS:
+:PROPERTIES:
+:CATEGORY: work
+:END:
+
+$0

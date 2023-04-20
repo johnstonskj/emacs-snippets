@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: New MEETING Item
+# key: meeting
+# --
+
+* MEETING $1
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `(org-id-new)`
+:END:
+
+$0
+
+Add scheduled start with /=C-c C-s=/, or a deadline with /=C-c C-d=/.
+
+** Attendees
+
+- Someone
+
+** Actions [/]
+
+*** TODO Action ...
+
+** Notes

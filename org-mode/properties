@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: PROPERTIES Drawer
+# key: props
+# --
+
+:PROPERTIES:
+$0
+:END:

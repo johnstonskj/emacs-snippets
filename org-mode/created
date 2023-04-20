@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: CREATED Property
+# key: propid
+# --
+
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`

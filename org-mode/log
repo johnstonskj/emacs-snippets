@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LOGBOOK Drawer
+# key: log
+# --
+
+:LOGBOOK:
+$0
+:END:

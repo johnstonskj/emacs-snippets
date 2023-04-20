@@ -3,4 +3,4 @@
 # key: fn
 # expand-env: ((yas-wrap-around-region 1))
 # --
-[fn::$0]
+\footnote{$0}

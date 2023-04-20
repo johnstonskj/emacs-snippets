@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Simon Johnston <johnstonskj@gmail.com>
 # name: New package file
-# key: new-package-file
+# key: newpkg
 # --
 
 ;;; $1.el --- ${2:One-line description} -*- lexical-binding: t; -*-

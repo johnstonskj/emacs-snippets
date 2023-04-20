@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ID Property
+# key: propid
+# --
+
+:ID:       `(org-id-new)`

@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# contributor: Simon Johnston <johnstonskj@gmail.com>
+# name: Init package file
+# key: initpkg
+# --
+
+;;; skj-$1.el -*- lexical-binding: t; -*-
+
+(init-message "Setting up $1" 'skj-$1)
+
+;; --------------------------------------------------------------------------
+;; Some Stuff
+
+(skj-package-install '($0))
+
+
+(provide 'skj-$1)
+
+;;; $1.el ends here

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: New TODO Item
+# key: todo
+# --
+
+* TODO [#C] $1
+:PROPERTIES:
+:CREATED:  `(format-time-string (org-time-stamp-format :with-time :inactive))`
+:ID:       `(org-id-new)`
+:EFFORT:   
+:END:
+
+$0
+
+Add scheduled start with /=C-c C-s=/, a deadline with /=C-c C-d=/, and an
+effort estimate with  /=C-c C-x e=/.

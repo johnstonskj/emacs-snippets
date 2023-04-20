@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: New Emacs Lisp Babel Block
+# key: elisp
+# --
+#+BEGIN_SRC emacs-lisp
+$0
+#+END_SRC
